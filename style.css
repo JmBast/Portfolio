@@ -5,8 +5,9 @@
   }
 
   body {
-    font-family: monospace sans-serif;
-    background-color: #ace894;
+    font-family: 'Barlow Condensed', sans-serif;
+    background: #084B83  url("background1.jpg") no-repeat center center fixed  ;
+    background-size: cover;
   }
 
   .imgG {
