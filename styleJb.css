@@ -1,43 +1,50 @@
-h1 {
+  .titulo {
     text-align: center;
+    font-weight: bold;;
+    font-family: 'Piazzolla', serif;
+    color: #66462C;
+  }
+  .nome{
+    font-size: 50px;
+    margin-bottom: -20px;
+  }
+
+  .navegacao{
+    background-color: #66462C;
+    margin-top: -17px;
+    font-size: 17px;
+    font-family: 'Piazzolla', serif;
+    color: lightgray;
   }
 
   .first {
-    background-color: rgb(235, 200, 84);
-    font-size: 20px;
-    height: 50px;
     text-align: center;
-    width: 200px;
-    /* Resposta */
-    display: block;
-    margin-left: 200px;
+    display: inline-block;
+    margin-left: 650px;
+
   }
 
   .second {
-    background-color: rgb(219, 219, 219);
-    font-size: 20px;
-    height: 50px;
     text-align: center;
     width: 300px;
-    /* Resposta */
-    display: inline-block;
+    margin-left: 200px;
+    display: inline;
+    
   }
 
   .third {
-    background-color: rgb(170, 142, 106);
-    font-size: 20px;
-    height: 50px;
     text-align: center;
     width: 300px;
-    /* Resposta */
-    display: inline-block;
-  }
-  .cabecalho{
+    margin-left: 200px;
+    display: inline;
     
+  } 
+  .cabecalho{
     background-image: url(/background1.jpg);
     padding: 15%;
     background-position: center;
     background-size: cover;
+    
 
   }
 
