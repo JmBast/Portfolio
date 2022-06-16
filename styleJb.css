@@ -1,58 +1,77 @@
   .titulo {
-    text-align: center;
-    font-weight: bold;;
-    font-family: 'Piazzolla', serif;
-    color: #66462C;
-  }
-  .nome{
-    font-size: 50px;
-    margin-bottom: -20px;
+      text-align: center;
+      font-weight: bold;
+      ;
+      font-family: 'Piazzolla', serif;
+      color: #66462C;
   }
 
-  .navegacao{
-    background-color: #66462C;
-    margin-top: -17px;
-    font-size: 17px;
-    font-family: 'Piazzolla', serif;
-    color: lightgray;
+  .nome {
+      font-size: 50px;
+      margin-bottom: -20px;
+  }
+
+  .navegacao {
+      background-color: #66462C;
+      margin-top: -17px;
+      font-size: 17px;
+      font-family: 'Piazzolla', serif;
+      color: lightgray;
   }
 
   .first {
-    text-align: center;
-    display: inline-block;
-    margin-left: 650px;
+      text-align: center;
+      display: inline-block;
+      margin-left: 650px;
 
   }
 
   .second {
-    text-align: center;
-    width: 300px;
-    margin-left: 200px;
-    display: inline;
-    
+      text-align: center;
+      width: 300px;
+      margin-left: 200px;
+      display: inline;
+
   }
 
   .third {
-    text-align: center;
-    width: 300px;
-    margin-left: 200px;
-    display: inline;
-    
-  } 
-  .cabecalho{
-    background-image: url(/background1.jpg);
-    padding: 15%;
-    background-position: center;
-    background-size: cover;
-    
+      text-align: center;
+      width: 300px;
+      margin-left: 200px;
+      display: inline;
 
   }
 
+  .cabecalho {
+      background-image: url(/background1.jpg);
+      padding: 15%;
+      background-position: center;
+      background-size: cover;
+  }
+
+   .foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 0px;
+}
+
+  .foto {
+      display: inline-block;
+      border-radius: 50%;
+      overflow: hidden;
+      width: 200px;
+      height: 200px;
+      margin-left: 420px;
+      margin-top: -130px;
+      border: #3C896D solid;      
+  }
+
   li {
-    display: inline-block;
+      display: inline-block;
   }
 
   /* Resposta */
   h3 {
-    text-align: center;
+      text-align: center;
   }
