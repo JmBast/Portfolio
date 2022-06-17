@@ -4,44 +4,6 @@
       box-sizing: border-box;
   }
 
-  .titulo {
-      text-align: center;
-      font-weight: bold;
-      ;
-      font-family: 'Piazzolla', serif;
-      color: #66462C;
-  }
-
-  .nome {
-      font-size: 50px;
-      margin-bottom: -20px;
-  }
-
-  .navegacao {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 2000px;
-    margin: 0 auto;
-    padding: 0 2%;
-    background-color: #66462C;
-    text-align:  center;
-}
-
-
-  .navegacao a{
-      color: #ACE894;
-      text-decoration: none;
-      text-align: center;
-      margin-left: 200px;
-  }
-
-  .cabecalho {
-      background-image: url(/background1.jpg);
-      padding: 15%;
-      background-position: center;
-      background-size: cover;
-
-  }
 
   .foto img {
       width: 100%;
@@ -60,19 +22,4 @@
       margin-top: -130px;
       border: #66462C solid;
       border-width: 5px;
-  }
-
-  .conteudo {
-      background-color: #ACE894;
-
-  }
-
-
-  li {
-      display: inline-block;
-  }
-
-  /* Resposta */
-  h3 {
-      text-align: center;
   }
